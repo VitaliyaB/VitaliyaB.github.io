@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Rochester');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/* common style */
+
+body {
+    font: 16px 'Open Sans', sans-serif;
+    color: #5D5D5D;
+}
+
+main {
+    overflow: hidden;
+}
+
+main section:last-child {
+    margin-bottom: 6.1rem;
+}
+
+.fixed-width {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60rem;
+    margin: 3rem auto;
+    position: relative;
+}
+
+h3 {
+    font: 4.614rem 'Herr Von Muellerhoff', cursive;
+    color: #C9A14D;
+    position: relative;
+}
+
+h5 {
+    font: 1.9rem 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6rem;
+    color: #323232;
+    text-transform: uppercase;
+    margin: -2.3rem 0 3.7rem;
+}
+
+.common-btn {
+    font: 0.65rem 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    line-height: 2.1rem;
+    text-transform: uppercase;
+    border: 2px solid #A68F60;
+    color: #A68F60;
+    background-color: #FFFFFF;
+    padding: 0 1.1rem;
+    position: relative;
+}
+
+.common-btn:hover {
+    color: #FFFFFF;
+    background-color: #A68F60;
+    border-color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 0 0 3px #A68F60;
+}
+
+.common-btn:focus {
+    outline: none;
+}
+
+#toTop {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+    background: url("../images/common/upArrow.png") center no-repeat;
+    background-color: rgba(231,216,185,0.3);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+#toTop:hover {
+    background-color: rgba(231,216,185,0.5);
+    cursor: pointer;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+/* common style end */
+
+/* header style */
+
+header {
+    position: relative;
+}
+
+header:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.head-site-wrapper {
+    position: relative;
+    background-color: transparent;
+}
+
+.head-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    height: 6.654rem;
+}
+
+.head-site a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo-helper {
+    padding-left: 1.5rem;
+}
+
+.logo-helper:hover {
+    color: #C9A14D;
+    text-shadow: 3px 1px 1px black;
+    transform: scale(1.1,1.1);
+}
+
+.logo1 {
+    font: 3.6rem 'Rochester', cursive;
+}
+
+.logo2 {
+    font: 0.75rem 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 4.7rem;
+    margin-top: -0.8rem;
+    text-transform: uppercase;
+}
+
+nav a {
+    display: inline-block;
+    font: 0.75rem 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 1.6rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid #C9A14D;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(0,1);
+}
+
+nav a:hover {
+    color: #C9A14D;
+    text-shadow: 2px -2px 3px black;
+    font-weight: bold;
+}
+
+nav a:hover:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.headlines-wrapper {
+    position: relative;
+    color: #FFFFFF;
+    background: none;
+}
+
+.headlines {
+    max-width: 32rem;
+    text-align: center;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.headlines h1 {
+    font: 6.25rem 'Herr Von Muellerhoff', cursive;
+    margin-top: 8.5rem;
+    color: #C9A14D;
+}
+
+.headlines h4 {
+    font: 2rem 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.66rem;
+    text-transform: uppercase;
+    margin: -0.9rem 0 16.4rem 0;
+    white-space: nowrap;
+}
+
+/* header style end */
+
+/* full width */
+
+.full-width {
+    padding: 8.7rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.full-width:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+}
+
+.full-width h2 {
+    font: 6.554rem 'Herr Von Muellerhoff', cursive;
+    color: #C9A14D;
+    padding: 0 0.5rem;
+    position: relative;
+}
+
+.full-width h4 {
+    font: 2rem 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.86rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -2.9rem;
+    position: relative;
+    padding: 0 1rem;
+}
+
+/* full width end */
+
+/* footer */
+
+.information {
+    background-color: #0f0f0f;
+    color: #d3d3d3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.information .fixed-width {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 3rem 0 2.7rem 0;
+}
+
+.information h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    letter-spacing: 0.2rem;
+}
+
+.location-helper {
+    width: 14.8rem;
+    padding: 1rem;
+}
+
+.location {
+    display: flex;
+    font-size: 0.65rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.address, .hours{
+    margin-bottom: 1rem;
+}
+
+.working-hours-helper {
+    width: 25.4rem;
+    padding: 1rem;
+}
+
+.working-hours {
+    display: flex;
+    font-size: 0.65rem;
+    font-weight: 300;
+}
+
+.copyright {
+    background-color: #232323;
+    padding: 0 1rem;
+}
+
+.copyright .fixed-width {
+    margin: 0 auto;
+    padding: 0.8rem 0;
+    font-size: 9px;
+    color: #d3d3d3;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+.contact a:first-child:after {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    margin: 0 5px 0 8px;
+    vertical-align: middle;
+}
+
+/* footer end */

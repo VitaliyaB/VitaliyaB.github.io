@@ -1,0 +1,28 @@
+header {
+    background: url("../images/information/informationHeader.jpg") center / cover no-repeat;
+}
+
+header:before {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.gallery {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.gallery img {
+    display: inline-block;
+    max-width: 90%;
+    margin: 0.5rem;
+    border: 5px solid white;
+    box-shadow: 2px 2px 11px black;
+    filter: opacity(0.5);
+    transition: .3s ease-in-out;
+}
+
+.gallery img:hover {
+    filter: opacity(1);
+}
+
+

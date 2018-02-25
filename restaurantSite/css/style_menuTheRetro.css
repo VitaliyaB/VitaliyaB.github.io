@@ -1,0 +1,181 @@
+/* header style */
+
+header {
+    background: url("../images/menu/menuHeader.jpg") center / cover no-repeat;
+}
+
+header:before {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* header style end */
+
+/* main */
+
+.full-width {
+    margin: 3rem 0;
+}
+
+.full-width:before {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.kinds-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 82rem;
+    margin: 0 auto;
+}
+
+.kinds-wrapper h6 {
+    font: 1.2rem 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #323232;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.kinds-wrapper .kinds-of-dishes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.kinds-wrapper .kinds-of-dishes:before {
+    content: '';
+    display: block;
+    width: 6.5rem;
+    height: 6.5rem;
+    background: url("../images/menu/spriteMenu.png") no-repeat;
+    margin-right: 1rem;
+}
+
+.kinds-wrapper .kinds-of-dished-helper {
+    max-width: 24.9rem;
+}
+
+h5 {
+    margin: 0 0 2rem;
+}
+
+.column {
+    margin: 0 1rem;
+}
+
+.price {
+    font: 3rem 'Herr Von Muellerhoff', cursive;
+    color: #C9A14D;
+    margin-left: 1rem;
+}
+
+/* main end */
+
+/* starters */
+
+.starters-helper {
+    background: url("../images/menu/menuStarters.jpg") center / cover no-repeat;
+    position: relative;
+}
+
+.description {
+    color: white;
+    font-size: 1.3rem;
+    max-width: 45.6rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.kinds-wrapper .spinach.kinds-of-dishes:before {
+    background-position: -2px 0;
+}
+
+.kinds-wrapper .tomato.kinds-of-dishes:before {
+    background-position: -108px 0;
+}
+
+.kinds-wrapper .mushroom.kinds-of-dishes:before {
+    background-position: -217px 0;
+}
+
+.kinds-wrapper .cobb.kinds-of-dishes:before {
+    background-position: -321px 0;
+}
+
+.kinds-wrapper .waldorf.kinds-of-dishes:before {
+    background-position: -430px 0;
+}
+
+.kinds-wrapper .quiche.kinds-of-dishes:before {
+    background-position: -538px 0;
+}
+
+/* starters end */
+
+/* mainDishes */
+
+.mainDishes-helper {
+    background: url("../images/menu/menuMainDishes.jpg") center / cover no-repeat;
+    position: relative;
+}
+
+.kinds-wrapper .kebabs.kinds-of-dishes:before {
+    background-position: 1px -109px;
+}
+
+.kinds-wrapper .ribs.kinds-of-dishes:before {
+    background-position: -105px -109px;
+}
+
+.kinds-wrapper .chicken.kinds-of-dishes:before {
+    background-position: -214px -109px;
+}
+
+.kinds-wrapper .tuna.kinds-of-dishes:before {
+    background-position: -320px -109px;
+}
+
+.kinds-wrapper .turkey.kinds-of-dishes:before {
+    background-position: -430px -109px;
+}
+
+.kinds-wrapper .steak.kinds-of-dishes:before {
+    background-position: -538px -109px;
+}
+
+/*  mainDishes end*/
+
+/*  tastyDeserts*/
+
+.tastyDeserts-helper {
+    background: url("../images/menu/menuDeserts.jpg") center / cover no-repeat;
+    position: relative;
+}
+
+.kinds-wrapper .plate.kinds-of-dishes:before {
+    background-position: 1px -218px;
+}
+
+.kinds-wrapper .cake.kinds-of-dishes:before {
+    background-position: -104px -218px;
+}
+
+.kinds-wrapper .flottante.kinds-of-dishes:before {
+    background-position: -214px -218px;
+}
+
+.kinds-wrapper .panna-cotta.kinds-of-dishes:before {
+    background-position: -320px -218px;
+}
+
+.kinds-wrapper .tiramisu.kinds-of-dishes:before {
+    background-position: -430px -218px;
+}
+
+.kinds-wrapper .cup.kinds-of-dishes:before {
+    background-position: -538px -218px;
+}
+
+/*  tastyDeserts end*/

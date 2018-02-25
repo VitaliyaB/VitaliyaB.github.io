@@ -1,0 +1,100 @@
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 767px) {
+
+    .full-width {
+        padding: 4.3rem 0;
+    }
+
+    .full-width h2 {
+        font-size: 4.8rem;
+    }
+
+    .full-width h4 {
+        font-size: 1.4rem;
+        margin-top: -1.5rem;
+    }
+
+    .phone {
+        font-size: 1.6rem;
+        margin-top: 3.5rem;
+    }
+
+    .phone a {
+        font-size: 1.8rem;
+    }
+
+    #contactName, #email, #contactMessage {
+        width: 25rem;
+    }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 479px) {
+
+    .head-site {
+        background: url("../images/contactUs/contactUs.jpg") 46% 0 / cover no-repeat;
+    }
+
+    .full-width {
+        padding: 4.3rem 0 3rem;
+    }
+
+    .full-width h2 {
+        font-size: 4.1rem;
+        line-height: 3.2rem;
+    }
+
+    .full-width h4 {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .phone {
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+
+    .phone a {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .icons-wrapper {
+        margin-top: 1.5rem;
+    }
+
+    .icons {
+        width: 34px;
+        height: 34px;
+        background: url("../images/contactUs/spriteIconSmall.png") no-repeat;
+    }
+
+    .twitter {
+        background-position: -39px;
+    }
+
+    .instagram {
+        background-position: -80px;
+    }
+
+    .error {
+        font-size: 0.7rem;
+    }
+
+    #contactName, #email, #contactMessage {
+        width: 16.5rem;
+        height: 1.2rem;
+        margin: 0.4rem 0;
+    }
+
+    #contactMessage {
+        height: 6rem;
+    }
+
+    main section:last-child {
+        padding: 2rem 0;
+    }
+
+}

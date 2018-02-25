@@ -1,0 +1,46 @@
+header {
+    background: url("../images/aboutUs/headerAboutUs.jpg") center / cover no-repeat;
+}
+
+header:before {
+    background-color: rgba(0,0,0,0.45);
+}
+
+.entry {
+    background: url("../images/aboutUs/entry.jpg") center / cover no-repeat;
+    position: relative;
+}
+
+.full-width:before {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.fixed-width {
+    max-width: 70rem;
+    padding: 0 1rem;
+}
+
+.full-width h4 {
+    color: #323232;
+    margin-top: 0;
+}
+
+.idea-wrapper, .food-wrapper, .catering-wrapper {
+    align-items: center;
+}
+
+.idea-wrapper img, .food-wrapper img, .catering-wrapper img {
+    width: 52%;
+}
+
+.idea, .catering {
+    margin-right: 2rem;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.food {
+    margin-left: 2rem;
+    text-align: center;
+    max-width: 30rem;
+}

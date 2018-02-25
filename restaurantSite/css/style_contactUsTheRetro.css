@@ -1,0 +1,128 @@
+header {
+    background: url("../images/contactUs/contactUs.jpg") center / cover no-repeat;
+}
+
+.full-width {
+    padding: 6rem 0;
+}
+
+.full-width:before {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.full-width h4 {
+    color: #323232;
+}
+
+.contactUs-header {
+    background: url("../images/contactUs/contactUsFullWidth.jpg") center / cover no-repeat;
+    position: relative;
+}
+
+.phone {
+    font: 2rem 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #323232;
+    letter-spacing: 0.86rem;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.phone a {
+    display: block;
+    color: #323232;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 2.2rem;
+}
+
+.icons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.icons{
+    display: block;
+    width: 66px;
+    height: 66px;
+    background: url("../images/contactUs/spriteIcon.png") no-repeat;
+    margin: 1rem;
+}
+
+.twitter {
+    background-position: -72px;
+}
+
+.instagram {
+    background-position: -146px;
+}
+
+main section:last-child {
+    padding: 3rem 0;
+}
+
+.messageForm {
+    background: url("../images/contactUs/sendMessage.jpg") center / cover no-repeat;
+    position: relative;
+}
+
+.messageForm:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#js-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.error {
+    color: red;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#contactName.error, #email.error, #contactMessage.error {
+    border: 2px solid red;
+}
+
+#contactName::placeholder, #email::placeholder, #contactMessage::placeholder {
+    color: black;
+}
+
+#contactName, #email, #contactMessage {
+    font: 0.9rem 'Poppins', sans-serif;
+    width: 30rem;
+    height: 1.5rem;
+    margin: 0.7rem 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0.8;
+    border: 2px solid #A68F60;
+    padding: 0.5rem;
+    outline: none;
+    position: relative;
+}
+
+#contactName:focus, #email:focus, #contactMessage:focus {
+    background-color: rgb(166, 143, 96);
+}
+
+#contactMessage {
+    height: 8rem;
+}
+
+.common-btn {
+    width: 10rem;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,76 @@
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 991px) {
+
+    .full-width h4 {
+        font-size: 1.5rem;
+    }
+
+    .fixed-width h3 {
+        font-size: 3.8rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 767px) {
+
+    .full-width h4 {
+        margin-top: -1rem;
+        font-size: 1.2rem;
+    }
+
+    .idea-wrapper img, .food-wrapper img, .catering-wrapper img {
+        width: 85%;
+        height: 0%;
+    }
+
+    .idea-wrapper, .catering-wrapper {
+        flex-direction: column;
+    }
+
+    .idea, .catering {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .food-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .food {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .description {
+        margin-bottom: 1rem;
+    }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 479px) {
+
+    .head-site {
+        background: url("../images/aboutUs/headerAboutUs.jpg") 67% 0 / cover no-repeat;
+    }
+
+    header:before {
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .full-width h2 {
+        font-size: 4.6rem;
+    }
+
+    .full-width h4 {
+        font-size: 1rem;
+    }
+
+    .fixed-width h3 {
+        font-size: 3.5rem;
+    }
+}
