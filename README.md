@@ -1,1 +1,1 @@
-# vitaliyaB.github.io
+# vitaliyaB.github.io/snakeGame/snakeGame.html
