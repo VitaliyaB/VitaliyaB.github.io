@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+    background: url("pictures/background.jpg") no-repeat top center / cover;
+    position: relative;
+}
+
+canvas {
+    position: absolute;
+}
+
+#scoreHelper {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+}
+
+#mainPage {
+    height: 100%;
+    background-color: rgba(216, 210, 243, 0.25);
+}
+
+#nameOfGame {
+    font-family: 'Great Vibes', cursive;
+    color: #342552;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#start, #highScore {
+    display: block;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #342552;
+    margin: 20px auto;
+    word-wrap: break-word;
+}
+
+#table {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    color: #342552;
+    background-color: rgba(216, 210, 243, 0.8);
+}
+
+#progress {
+    position: absolute;
+    border: 1px solid #342552;
+}
+
+#progressPer {
+    background-color: #342552;
+    width: 0%;
+}
+
+.tableRow {
+    border-bottom: 1px solid #342552;
+}
+
+#table td {
+    vertical-align: middle;
+}
+
+#gameOver {
+    font-family: 'Great Vibes', cursive;
+    color: #342552;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(216, 210, 243, 0.3);
+}
+
+#gameOverText {
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#enterName {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #342552;
+    text-align: center;
+}
+
+#playerName {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    background-color: #B2ACC3;
+}
+
+#playerName:focus {
+    background-color: rgba(216, 210, 243, 0.7);
+}
+
+#confirm {
+    display: block;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #342552;
+}
