@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1250px) {
+
+    h5 {
+        margin: 0 0 0.2rem;
+        text-align: center;
+    }
+
+    .soups {
+        margin-bottom: 1rem;
+    }
+
+    .kinds-wrapper {
+        flex-direction: column;
+    }
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 991px) {
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        font-size:  2.5rem;
+    }
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 767px) {
+
+    .description {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .full-width{
+        margin: 2rem 0;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    .kinds-wrapper h6 {
+        font-size: 1rem;
+    }
+
+    .kinds-wrapper .kinds-of-dished-helper {
+        max-width: 15.7rem;
+    }
+
+    .ingredients {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 479px) {
+
+    .head-site {
+        background: url("../images/menu/menuHeader.jpg") 83% 0 / cover no-repeat;
+    }
+
+    .head-site:before {
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .starters-helper.full-width {
+        margin: 1rem 0;
+    }
+
+    .kinds-wrapper .kinds-of-dishes:before {
+        display: none;
+    }
+
+    .kinds-wrapper .kinds-of-dished-helper {
+        width: 100%;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 321px) {
+
+    .full-width {
+        margin: 1rem 0;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    .kinds-wrapper h6 {
+        font-size: 0.8rem;
+    }
+
+    .ingredients {
+        font-size: 0.7rem;
+    }
+
+    .price {
+        font-size: 1.7rem;
+    }
+}

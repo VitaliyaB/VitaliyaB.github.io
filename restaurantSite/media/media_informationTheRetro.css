@@ -1,0 +1,16 @@
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 479px) {
+
+    .head-site {
+        background: url("../images/information/informationHeader.jpg") 60% 0 / cover no-repeat;
+    }
+
+    .head-site:before {
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .gallery img {
+        max-width: 80%;
+    }
+}

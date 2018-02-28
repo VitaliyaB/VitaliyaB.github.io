@@ -1,0 +1,122 @@
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 991px) {
+
+    .headlines-wrapper {
+        background-size: 23.6rem 18.525rem;
+    }
+
+    .fixed-width .description-wrapper {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .fixed-width .description-wrapper {
+        padding: 0 1.8rem;
+    }
+
+    .about-us .pic {
+        margin-right: 1.8rem;
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .menu-gallery {
+        width: auto;
+        margin-top: 1.8rem;
+    }
+
+    .menu.fixed-width .common {
+        width: 11.1rem;
+        height: 16rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .culinary {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .culinary-gallery {
+        margin-top: 1.8rem;
+    }
+
+    .culinary-gallery .common {
+        width: 20rem;
+        height: 16.5rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 767px) {
+
+    .headlines h4 {
+        margin: -2rem 0 0.5rem;
+    }
+
+    .headlines h6 {
+        font-size: 0.8rem;
+        margin-bottom: 8rem;
+    }
+
+    h5 {
+        margin-bottom: 2.8rem;
+    }
+
+    .about-us .pic {
+        display: none;
+    }
+
+    .menu.fixed-width .common {
+        width: 6.6rem;
+        height: 12.5rem;
+    }
+
+    .culinary-gallery .common {
+        width: 13.8rem;
+        height: 12.3rem;
+    }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 479px) {
+
+    .head-site {
+        background: url("../images/mainPage/header.jpg") 0 0 / cover no-repeat;
+    }
+
+    .fixed-width .description-wrapper {
+        padding: 0 0.8rem;
+    }
+
+    .fixed-width .description-wrapper h5 {
+        margin: -1.6rem 0 1.9rem;
+    }
+
+    .description-wrapper .description {
+        font-size: 14px;
+        margin-bottom: 1.1rem;
+    }
+
+    .full-width h4 {
+        margin-top: -1.9rem;
+    }
+
+    .menu-gallery {
+        display: none;
+    }
+    
+    .culinary-gallery {
+        display: none;
+    }
+
+}
+
+
