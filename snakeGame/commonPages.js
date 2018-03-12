@@ -43,7 +43,7 @@ function highscoreTable() {
         var containerX = window.innerWidth;
         var tableWidth = containerX / 1.5;
         table.style.width = tableWidth + "px";
-        table.style.fontSize = tableWidth / 15 + "px";
+        table.style.fontSize = tableWidth / 17 + "px";
         table.style.left = containerX / 2 - tableWidth / 2 + "px";
     }
 }
