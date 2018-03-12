@@ -47,16 +47,3 @@ function highscoreTable() {
         table.style.left = containerX / 2 - tableWidth / 2 + "px";
     }
 }
-
-function progressPerStyle() {
-    var windowX = window.innerWidth;
-    var windowY = window.innerHeight;
-    var progress = document.getElementById("progress");
-    var progressPer = document.getElementById("progressPer");
-    var progressWidth = windowX / 1.5;
-    var progressPerHeight = windowY / 10;
-    progress.style.width = progressWidth + "px";
-    progress.style.top = windowY / 2 - progressPerHeight / 2 + "px";
-    progress.style.left = windowX / 2 - progressWidth / 2 + "px";
-    progressPer.style.height = progressPerHeight + "px";
-}

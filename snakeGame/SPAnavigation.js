@@ -41,10 +41,9 @@ function switchToStateFromURLHash() {
         case "HighscoreTable":
             var table = "";
             table += "<table id='table'></table>";
-            table += "<div id='progress'>" + "<div id='progressPer'></div>" + "</div>";
             pageHTML = table;
             document.getElementById("container").innerHTML = pageHTML;
-            progressBar();
+            showHighscore();
             highscoreTable();
             break;
     }

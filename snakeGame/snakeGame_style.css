@@ -51,16 +51,6 @@ canvas {
     background-color: rgba(216, 210, 243, 0.8);
 }
 
-#progress {
-    position: absolute;
-    border: 1px solid #342552;
-}
-
-#progressPer {
-    background-color: #342552;
-    width: 0%;
-}
-
 .tableRow {
     border-bottom: 1px solid #342552;
 }

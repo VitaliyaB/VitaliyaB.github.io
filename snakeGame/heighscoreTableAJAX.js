@@ -9,7 +9,7 @@ function showTable() {
     var str = "";
     scores.sort(compareFunc);
     function compareFunc(a, b) {return b.score - a.score;}
-    for (var s = 0; s < scores.length; s++) {
+    for (var s = 0; s < 10; s++) {
         var score = scores[s];
         var rowNum = 1 + s;
         str += "<tr class='tableRow'>" +
@@ -39,31 +39,10 @@ function showHighscore() {
             type: "POST", dataType: "json",
             data: {f: "READ", n: stringName},
             cache: false,
-            success: readReady, complete:complete,
+            success: readReady,
             error: errorHandler
         }
     );
-}
-
-function progressBar() {
-    progressPerStyle();
-    progress();
-    var perc = 0;
-    function progress() {
-        if (perc >= 100) {
-            perc = 0;
-            return;
-        }
-        perc += 5;
-        document.getElementById("progressPer").style.width = perc + "%";
-        setTimeout(progress, 250);
-    }
-
-    setTimeout(showHighscore, 4000);
-}
-
-function complete() {
-    document.getElementById("progress").style.display = "none";
 }
 
 function readReady(callresult) {
